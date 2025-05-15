@@ -1,0 +1,92 @@
+
+  
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      background: url("download.jpeg") center/cover no-repeat fixed;
+      min-height: 100vh;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* ---------- NAVBAR ---------- */
+    .navbar-light {
+      backdrop-filter: blur(10px);
+    }
+
+    /* ---------- SEARCH BARS ---------- */
+    .search-bar {
+      backdrop-filter: blur(6px);
+      background: rgba(255, 255, 255, 0.12);
+      border: none;
+      border-radius: 12px;
+      color: #fff;
+    }
+
+    .search-bar::placeholder {
+      color: #e5e5e5;
+    }
+
+    /* ---------- GLASS CARD ---------- */
+    .glass-card {
+      backdrop-filter: blur(18px);
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+      overflow: hidden;
+    }
+/* 
+    .wallet {
+      color: #00e0ff;
+    } */
+
+    /* .status {
+      font-weight: 600;
+    } */
+
+    /* .block-info {
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: #222;
+    } */
+
+    /* ---------- GAS-PRICE BOX ---------- */
+    /* .gas-price-box {
+      background: rgba(255, 255, 255, .25);
+      backdrop-filter: blur(8px);
+      border-radius: 12px;
+      padding: .35rem .9rem;
+      font-weight: 600;
+      display: inline-block;
+    } */
+
+.bar{
+  margin-top: 10rem;
+}
+
+    /* ---------- MEDIA QUERIES ---------- */
+    @media (max-width: 576px) {
+
+      /* phones */
+      .block-info {
+        font-size: 1rem;
+      }
+
+      .glass-card {
+        padding: 1.25rem;
+      }
+
+      .navbar-brand {
+        font-size: 1rem;
+      }
+    }
